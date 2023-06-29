@@ -69,10 +69,10 @@ const deleteData = (index) => {
 
     localStorage.setItem("infoSection", JSON.stringify(getList));
     window.location.reload();
-    showData();
 }
-deleteData();
+
 // showData();
+
 submitBtn.addEventListener(('click'), () => {
     getData();
     showData();
