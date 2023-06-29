@@ -71,7 +71,7 @@ const deleteData = (index) => {
     window.location.reload();
     showData();
 }
-
+deleteData();
 // showData();
 submitBtn.addEventListener(('click'), () => {
     getData();

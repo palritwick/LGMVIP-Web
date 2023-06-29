@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
-html,
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  height: 100%;
-  width: 100%;
   font-family: 'Roboto', sans-serif;
   background: #323946;
   color: #fff;
 }
-h1{
-  font-size: 1.82rem;
+
+h1 {
+  margin: 3rem 0;
+  font-size: 1.72rem;
 }
-.container{
+
+.container {
   background: #75caf5;
   width: 385px;
   border-radius: 10px;
   padding: 15px;
+  box-shadow: 0 3px 5px 7px #111;
 }
+
 .button {
   width: 66px;
   padding: 20px;

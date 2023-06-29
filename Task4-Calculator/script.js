@@ -25,3 +25,4 @@ Array.from(buttons).forEach((button) => {
     }
   })
 })
+// adding sqrt function call and modulo % func call
